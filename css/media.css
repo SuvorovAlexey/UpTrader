@@ -1,0 +1,134 @@
+@media (max-width: 1236px) {
+  header {
+    background-size: cover;
+    background-position: top;
+  }
+
+  header .wrapper {
+    padding: 100px 0 100px 0
+  }
+
+  .nav-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-nav {
+    margin-bottom: 100px;
+  }
+
+  main {
+    background-size: cover;
+  }
+  .nav-main {
+    flex-direction: column;
+  }
+
+  .sectionInfo {
+    margin-left: 20px;
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 792px) {
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .description-text, .description-title, .description-list {
+    width: 325px;
+    margin: 20px auto;
+  }
+
+  .continue-btn {
+    margin-top: 40px;
+    margin-left: calc(50% - 90px);
+  }
+}
+
+@media (max-width: 376px) {
+
+  header .wrapper {
+    padding-bottom: 150px;
+  }
+
+  .btn-nav {
+    width: 340px;
+    height: 68px;
+    border-radius: 0;
+    border: none;
+    background-repeat: no-repeat;
+    padding: 21px 21px 21px 70px;
+    box-shadow: none;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .btn-nav--item1 {
+    background: url(../img/header/btn/icon-1-mini.png) 5% 50%,
+                url(../img/header/btn/arrow-down.png) 95% 50%;
+    background-repeat: no-repeat;
+    background-color: #f9f0e575;
+  }
+  .btn-nav--item1-active {
+    background: url(../img/header/btn/icon-1-mini.png) 5% 50%,
+                url(../img/header/btn/arrow-up.png) 95% 50%;
+    background-repeat: no-repeat;
+    background-color: #f9f0e575;
+  }
+
+
+  .btn-nav--item2 {
+    background: url(../img/header/btn/icon-2-mini.png) 5% 50%,
+                url(../img/header/btn/arrow-down.png) 95% 50%;
+    background-repeat: no-repeat;
+    background-color: #f9f0e575;
+  }
+  .btn-nav--item2-active {
+    background: url(../img/header/btn/icon-2-mini.png) 5% 50%,
+                url(../img/header/btn/arrow-up.png) 95% 50%;
+    background-repeat: no-repeat;
+    background-color: #f9f0e575;
+  }
+
+
+  .btn-nav--item3 {
+    background: url(../img/header/btn/icon-3-mini.png) 5% 50%,
+                url(../img/header/btn/arrow-down.png) 95% 50%;
+    background-repeat: no-repeat;
+    background-color: #f9f0e575;
+  }
+  .btn-nav--item3-active {
+    background: url(../img/header/btn/icon-3-mini.png) 5% 50%,
+                url(../img/header/btn/arrow-up.png) 95% 50%;
+    background-repeat: no-repeat;
+    background-color: #f9f0e575;
+  }
+
+
+  .nav-main{
+    display: none;
+  }
+  .sectionInfo {
+    display: none;
+  }
+
+  .toggle-text {
+    display: block;
+  }
+
+  .hiddenImgMobileActive {
+    display: block;
+    width: 375px;
+    height: 276px;
+    margin-left: -20px;
+  }
+
+  .yellow-BG {
+    background-image: none;
+    background-color: #f3f2da;
+  }
+
+
+}
